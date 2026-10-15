@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- justPDF Logo：品牌红渐变圆角方块 + 白色几何 J + 琥珀圆点（"J."） -->
+  <defs>
+    <linearGradient id="bg" x1="200" y1="120" x2="824" y2="904" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EF4E4E"/>
+      <stop offset="1" stop-color="#C01E1E"/>
+    </linearGradient>
+    <radialGradient id="gloss" cx="360" cy="260" r="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dot" cx="730" cy="688" r="111" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FCD34D"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </radialGradient>
+  </defs>
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="url(#bg)"/>
+  <rect x="32" y="32" width="960" height="960" rx="216" fill="url(#gloss)"/>
+  <path d="M 556 300 L 556 620 A 130 130 0 0 1 296 620 L 296 530"
+        fill="none" stroke="#FFFFFF" stroke-width="150" stroke-linecap="round"/>
+  <circle cx="748" cy="706" r="74" fill="url(#dot)"/>
+</svg>
