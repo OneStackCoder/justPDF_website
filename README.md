@@ -1,2 +1,4 @@
 # justPDF_website
-Homepage of justPDF.
+Homepage of justPDF.  
+
+![screenshot.png](./assets//screenshots/home.png)
